@@ -1,0 +1,29 @@
+
+.count__btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:white;
+    font-size: 15px;
+    
+}
+.count__btn.red{
+    background-color: #e55656;
+
+}
+.count__btn.green{
+    margin-right: 15px;
+    background-color:#449f44;
+}
+.button__container{
+    display: flex;
+}
+@media(max-width : 400px){
+    .count__btn{
+        flex: 1 0 100%;
+        font-size: 13px;
+    }
+    .count__btn.green{
+        margin-bottom: 15px;
+        
+    }
+}

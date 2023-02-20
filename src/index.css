@@ -1,0 +1,10 @@
+#root{
+  min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+body.lock{
+  overflow: hidden;
+}
